@@ -1,3 +1,6 @@
+# Purpose: For access data folders
+typeattribute bootanim mlstrustedsubject;
+
 # Purpose : For MTK Emulator HW GPU
 allow bootanim qemu_pipe_device:chr_file rw_file_perms;
 

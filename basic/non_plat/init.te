@@ -188,3 +188,5 @@ allow init same_process_hal_file:file execute;
 # Allow init permission for hwservice
 allow init hidl_base_hwservice:hwservice_manager add;
 allow init hwservicemanager:binder { call transfer };
+
+allow init xcap_socket:sock_file create_file_perms;

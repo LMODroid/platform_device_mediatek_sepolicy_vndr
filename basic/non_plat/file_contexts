@@ -1099,4 +1099,5 @@
 /data/vendor/camera(/.*)?              u:object_r:vendor_camera_data_file:s0
 
 # Power
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.mediatek-libperfmgr      u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mtkpower@1\.2-service\.stub    u:object_r:mtk_hal_power_exec:s0

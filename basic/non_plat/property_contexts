@@ -452,3 +452,6 @@ ro.vendor.mtk_backlight_hwc_support u:object_r:vendor_mtk_backlight_ro_prop:s0
 
 # MAGT support property
 ro.vendor.magt.mtk_magt_support u:object_r:vendor_mtk_magt_support_prop:s0
+
+# Power
+vendor.mediatek.powerhal.    u:object_r:vendor_power_prop:s0

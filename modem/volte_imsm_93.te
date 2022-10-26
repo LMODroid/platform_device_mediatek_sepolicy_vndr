@@ -39,3 +39,7 @@ allow volte_imsm_93 volte_imsm_93:udp_socket rw_socket_perms;
 
 allow volte_imsm_93 socket_device:sock_file rw_file_perms;
 allow volte_imsm_93 volte_imsm_93:netlink_route_socket { nlmsg_write nlmsg_read create_socket_perms_no_ioctl };
+
+# Purpose: Allow to get init/md props
+get_prop(volte_imsm_93, vendor_mtk_md_version_prop)
+get_prop(volte_imsm_93, vendor_mtk_service_nvram_init_prop)

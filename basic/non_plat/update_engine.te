@@ -62,3 +62,8 @@ allow update_engine sysfs_memory:dir r_dir_perms;
 # Operation : S migration
 # Purpose : In order to suport preloader update that UFS LUN1 is mapped to sdc
 allow update_engine bootdevice_block_device:blk_file rw_file_perms;
+
+# Date : 2022/02/07
+# Operation : T migration
+# Purpose : Add permission for pl path utilities
+allow update_engine sysfs_block:dir search;

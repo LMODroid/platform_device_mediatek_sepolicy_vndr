@@ -896,3 +896,6 @@ genfscon sysfs /devices/platform/battery_bq/power_supply/battery/wakeup26       
 
 # Purpose: rules for nvm to check eFuse segment
 genfscon sysfs /devices/platform/11f10000.efuse/mtk-devinfo0/nvmem                              u:object_r:sysfs_nvmem:s0
+
+# Vibrator
+genfscon sysfs /kernel/thunderquake_engine    u:object_r:sysfs_vibrator:s0

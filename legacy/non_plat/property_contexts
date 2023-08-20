@@ -12,6 +12,11 @@ ro.mtk_deinterlace_support      u:object_r:vendor_mtk_deinterlace_prop:s0
 # Atcid
 persist.atm_enabled                   u:object_r:persist_atm_prop:s0
 
+# Audio
+vendor.audio.mic.                     u:object_r:vendor_audio_prop:s0
+vendor.audio.chk.                     u:object_r:vendor_audio_prop:s0
+vendor.audio.spkcal.                  u:object_r:vendor_audio_prop:s0
+
 # Camera
 camera.                               u:object_r:vendor_camera_prop:s0
 cam.egnsavefile.                      u:object_r:vendor_camera_prop:s0
@@ -26,6 +31,7 @@ vilte.test                            u:object_r:vendor_video_prop:s0
 prepend.test                          u:object_r:vendor_video_prop:s0
 debuglog.drv                          u:object_r:vendor_mtk_camera_prop:s0
 debuglog.drv.                         u:object_r:vendor_mtk_camera_prop:s0
+vendor.debug.camera.                  u:object_r:vendor_mtk_emcamera_prop:s0
 
 # DP lanner
 init.svc.dplanner-2-0            u:object_r:vendor_dpliner_prop:s0

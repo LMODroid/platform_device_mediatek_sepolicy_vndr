@@ -423,10 +423,7 @@ vendor.video.disable.ubwc                    u:object_r:vendor_video_prop:s0
 # Audio
 vendor.audio.hal.boot.               u:object_r:vendor_audio_prop:s0
 vendor.audio.voice.receiver.         u:object_r:vendor_audio_prop:s0
-vendor.audio.mic.                    u:object_r:vendor_audio_prop:s0
-vendor.audio.chk.                    u:object_r:vendor_audio_prop:s0
 vendor.audio.nfc.                    u:object_r:vendor_audio_prop:s0
-vendor.audio.spkcal.                 u:object_r:vendor_audio_prop:s0
 ro.vendor.qti.va_aosp.               u:object_r:vendor_audio_prop:s0
 
 # BT

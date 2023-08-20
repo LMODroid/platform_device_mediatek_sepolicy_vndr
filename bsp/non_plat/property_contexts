@@ -297,7 +297,6 @@ ro.vendor.mtk_cta_support u:object_r:vendor_mtk_cta_support_prop:s0
 
 ro.vendor.mtk_subsidy_lock_support u:object_r:vendor_mtk_subsidy_lock_support_prop:s0
 
-vendor.debug.camera.   u:object_r:vendor_mtk_emcamera_prop:s0
 vendor.debug.cameng.   u:object_r:vendor_mtk_emcamera_prop:s0
 vendor.debug.lsc_mgr.  u:object_r:vendor_mtk_emcamera_prop:s0
 vendor.debug.ae.       u:object_r:vendor_mtk_emcamera_prop:s0

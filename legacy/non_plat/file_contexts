@@ -1,0 +1,3 @@
+# NFC Data Labels
+/dev/nq-nci              u:object_r:nfc_device:s0
+

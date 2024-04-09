@@ -13,6 +13,7 @@ get_prop(vendor_init, vendor_video_prop)
 allow vendor_init rootfs:dir { create search getattr open read setattr ioctl write add_name remove_name rmdir relabelfrom };
 
 allow vendor_init kernel:system module_request;
+allow vendor_init mtk_radio_device:lnk_file { unlink };
 
 set_prop(vendor_init, vendor_mtk_mediatek_prop)
 set_prop(vendor_init, vendor_mtk_md_version_prop)

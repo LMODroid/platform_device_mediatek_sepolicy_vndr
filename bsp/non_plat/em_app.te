@@ -111,6 +111,12 @@ allow em_app sysfs_usb_nonplat:file rw_file_perms;
 allow em_app self:netlink_generic_socket { read write getattr bind create setopt };
 allow em_app conn_scp_device:chr_file rw_file_perms;
 
+# Date: 09/04/2024
+# techyminati: Allow em_app to find content_capture_service, game_service, and netstats_service
+allow em_app content_capture_service:service_manager { find };
+allow em_app game_service:service_manager { find };
+allow em_app netstats_service:service_manager { find };
+
 # Date: 2021/08/17
 # Purpose: Allow EM to ro.vendor.mcf_support
 get_prop(em_app, vendor_mtk_mcf_prop)

@@ -14,3 +14,5 @@ allow mtk_hal_wifi kernel:system module_request;
 
 set_prop(mtk_hal_wifi, vendor_wlan_fw_prop)
 get_prop(mtk_hal_wifi, vendor_mtk_wifi_hotspot_prop)
+get_prop(mtk_hal_wifi, persist_vendor_debug_wifi_prop)
+set_prop(mtk_hal_wifi, vendor_mtk_wifi_hal_prop)

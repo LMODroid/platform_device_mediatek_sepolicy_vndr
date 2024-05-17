@@ -18,8 +18,8 @@ net_domain(ipsec)
 # Date: WK14.52
 # Operation : Feature developing for ePDG
 
-# Purpose :  access xfrm 
-allow ipsec proc_net:file write;
+# Purpose :  access xfrm
+allow ipsec proc_net:file { write open };
 
 # Purpose :  set property for ip address with epdg_wod
 set_prop(ipsec, vendor_mtk_wod_prop)
@@ -84,4 +84,8 @@ allow ipsec proc_modules:file getattr;
 allow ipsec proc_net:file getattr;
 allow ipsec vendor_configs_file:file ioctl;
 
-
+allow ipsec epdg_wod:udp_socket { read write setopt getopt };
+allow ipsec vendor_shell_exec:file { execute_no_trans };
+allow ipsec vendor_toolbox_exec:file { execute_no_trans };
+allow ipsec wod_ipsec_conf_file:file { setattr };
+allow ipsec sysfs_thp_enabled:file { getattr open read };

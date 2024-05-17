@@ -16,3 +16,4 @@ allow netutils_wrapper rild:fifo_file rw_file_perms;
 
 allow netutils_wrapper wo_epdg_client:unix_stream_socket { read write };
 allow netutils_wrapper wo_epdg_client:fd use;
+allow netutils_wrapper sysfs_thp_enabled:file { getattr open read };

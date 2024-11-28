@@ -559,6 +559,7 @@
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/sec1                             u:object_r:sec1_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/boot_para                        u:object_r:boot_para_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/super                            u:object_r:super_block_device:s0
+/dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/logo(_[ab])?                     u:object_r:logo_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/boot(_[ab])?                     u:object_r:boot_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/system(_[ab])?                   u:object_r:system_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/odm(_[ab])?                      u:object_r:odm_block_device:s0
@@ -603,6 +604,7 @@
 /dev/block/platform/bootdevice/by-name/sec1      u:object_r:sec1_block_device:s0
 /dev/block/platform/bootdevice/by-name/boot_para u:object_r:boot_para_block_device:s0
 /dev/block/platform/bootdevice/by-name/super     u:object_r:super_block_device:s0
+/dev/block/platform/bootdevice/by-name/logo(_[ab])?          u:object_r:logo_block_device:s0
 /dev/block/platform/bootdevice/by-name/cam_vpu[1-3](_[ab])?  u:object_r:cam_vpu_block_device:s0
 /dev/block/platform/bootdevice/by-name/system(_[ab])?        u:object_r:system_block_device:s0
 /dev/block/platform/bootdevice/by-name/boot(_[ab])?          u:object_r:boot_block_device:s0
@@ -652,6 +654,7 @@
 /dev/block/by-name/boot_para                        u:object_r:boot_para_block_device:s0
 /dev/block/by-name/mcf_ota(_[ab])?                  u:object_r:mcf_ota_block_device:s0
 /dev/block/by-name/super                            u:object_r:super_block_device:s0
+/dev/block/by-name/logo(_[ab])?                     u:object_r:logo_block_device:s0
 /dev/block/by-name/cam_vpu[1-3](_[ab])?             u:object_r:cam_vpu_block_device:s0
 /dev/block/by-name/system(_[ab])?                   u:object_r:system_block_device:s0
 /dev/block/by-name/boot(_[ab])?                     u:object_r:boot_block_device:s0

@@ -189,3 +189,5 @@ ro.vendor.system.mtk_mapi_support u:object_r:system_mtk_dmc_prop:s0
 ro.vendor.system.mtk_mdmi_support u:object_r:system_mtk_dmc_prop:s0
 
 ro.mtk.ims.data.feature_support u:object_r:system_mtk_persist_ims_data_prop:s0
+
+debug.mediatek.kpoc. u:object_r:system_mtk_kpoc_prop:s0

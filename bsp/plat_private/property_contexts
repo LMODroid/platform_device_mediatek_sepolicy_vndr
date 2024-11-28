@@ -174,3 +174,5 @@ persist.vendor.dbg.vonr_ui_ovr u:object_r:system_mtk_dbg_ims_prop:s0
 
 # imsvt signale strength
 vendor.ims.vt.signalstrength. u:object_r:system_mtk_ims_vt_signalstrength_prop:s0
+
+debug.mediatek.kpoc. u:object_r:system_mtk_kpoc_prop:s0

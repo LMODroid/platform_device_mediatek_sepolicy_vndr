@@ -1,0 +1,2 @@
+type mtk_hal_composer_ext_service, vendor_service, protected_service, service_manager_type;
+

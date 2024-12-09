@@ -116,3 +116,5 @@ get_prop(surfaceflinger, vendor_mtk_debug_sf_duration_prop)
 # Data: 2022/08/09
 # Purpose: allow to check hwc dsi switch support
 get_prop(surfaceflinger, vendor_mtk_hwc_dsi_switch_prop)
+
+hal_client_domain(surfaceflinger, hal_mtk_composer_ext)

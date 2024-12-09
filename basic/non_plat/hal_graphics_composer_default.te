@@ -126,3 +126,6 @@ allow hal_graphics_composer_default sysfs_leds:file rw_file_perms;
 # Data: 2022/09/21
 # Purpose: allow hwcomposer to parse led folder for multi led devices
 allow hal_graphics_composer_default sysfs_leds:dir r_dir_perms;
+
+hal_server_domain(hal_graphics_composer_default, hal_mtk_composer_ext)
+

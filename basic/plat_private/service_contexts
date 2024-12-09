@@ -7,3 +7,4 @@ imsa          u:object_r:radio_service:s0
 mtkIms        u:object_r:radio_service:s0
 GbaService    u:object_r:radio_service:s0
 
+vendor.mediatek.framework.mtksf_ext.IMtkSF_ext/default     u:object_r:mtk_hal_sf_service:s0

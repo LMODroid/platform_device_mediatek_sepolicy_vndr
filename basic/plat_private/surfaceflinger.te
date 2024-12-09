@@ -16,3 +16,10 @@ get_prop(surfaceflinger, system_mtk_debug_bq_dump_prop)
 # Operation : Debug
 # Purpose: Allow to open debug log
 set_prop(surfaceflinger, system_mtk_sf_debug_prop)
+
+# Date : WK22.20
+# Operation: SurfaceFlinger MTK AIDL
+# Purpose: allow vendor partition access surfaceflinger
+# Note: hal_server_domain(surfaceflinger, hal_mtk_sf) would cause neverallow error
+typeattribute surfaceflinger hal_mtk_sf_server;
+typeattribute surfaceflinger hal_mtk_sf;

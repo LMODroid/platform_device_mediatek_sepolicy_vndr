@@ -120,3 +120,7 @@ attribute hal_mtk_mmagent_server;
 attribute hal_mtkcodecservice;
 attribute hal_mtkcodecservice_client;
 attribute hal_mtkcodecservice_server;
+
+attribute hal_mtk_sf;
+attribute hal_mtk_sf_client;
+attribute hal_mtk_sf_server;

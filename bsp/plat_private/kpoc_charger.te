@@ -72,3 +72,6 @@ allow kpoc_charger metadata_file:dir search;
 # Purpose : DRM / DRI GPU driver required
 allow kpoc_charger gpu_device:dir search;
 
+# Data : WK23.06
+# Purpose: Add permission to access debug property
+set_prop(kpoc_charger, system_mtk_kpoc_prop)
